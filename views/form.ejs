@@ -1,0 +1,13 @@
+<%- include("header")  %> 
+
+<form method="post" action="<%= form.action %> ">
+    <h2 class="text-center"><%= form.name %></h2>
+    <% for( let index = 0; index < form.format.length; index++ ) { %>
+        <div class="mb-3"><input class="form-control" type="<%= form.format[index].type %>" name="<%= form.format[index].id %>" placeholder="<%= form.format[index].description %> "></div>
+    <% } %>
+    <div class="mb-3"><small class="form-text text-danger"><%= form.warning %> </small></div>
+    <div class="mb-3"></div>
+    <div class="text-end mb-3"><button class="btn btn-primary" type="submit"><%= form.button %></button></div>
+</form>
+
+<%- include("footer") %> 
