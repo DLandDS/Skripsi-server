@@ -3,7 +3,7 @@
 Program ini dibuat untuk memenuhi tugas akhir S1.
 
 [Installasi] <br/>
-Sebelum anda menjalankan program ini, pastikan anda install terlebih dahulu NodeJS dan MongoDB agar program ini berlajalan dengan semestinya. Instalasi program akan dijelaskan sebagai berikut.
+Sebelum anda menjalankan program ini, pastikan anda install terlebih dahulu NodeJS dan MongoDB agar program ini berlajalan dengan semestinya. Langkah-langah instalasi program ini akan dijelaskan sebagai berikut.
 
 ```
 git clone https://github.com/DLandDS/Skripsi-server.git
