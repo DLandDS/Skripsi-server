@@ -8,6 +8,7 @@ Sebelum anda menjalankan program ini, pastikan anda install terlebih dahulu Node
 ```
 git clone https://github.com/DLandDS/Skripsi-server.git
 cd Skripsi-server
+npm install .
 node app
 ```
 
